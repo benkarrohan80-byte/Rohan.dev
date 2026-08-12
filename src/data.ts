@@ -1,13 +1,19 @@
 import { Project, Service, Skill, WhyUsItem, ProcessStep } from './types';
 
-export const AVATAR_URL = '/src/assets/images/rohan_avatar_1786355889284.jpg';
+import rohanAvatar from './assets/images/rohan_avatar_1786355889284.jpg';
+import scrapImg from './assets/images/scrap_business_mockup_1786355815404.jpg';
+import carRentalImg from './assets/images/car_rental_mockup_1786355833640.jpg';
+import realEstateImg from './assets/images/real_estate_mockup_1786355851656.jpg';
+import coachingImg from './assets/images/coaching_institute_mockup_1786355868741.jpg';
+
+export const AVATAR_URL = rohanAvatar;
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
     title: 'Scrap Business Website',
     description: 'Professional scrap business website with modern design, responsive layout, real-time query forms, and service catalogs tailored for local and industrial scrap trading.',
-    image: '/src/assets/images/scrap_business_mockup_1786355815404.jpg',
+    image: scrapImg,
     url: 'https://benkarrohan80-byte.github.io/rohan-traders5-website/',
     tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Form Handling']
   },
@@ -15,7 +21,7 @@ export const PROJECTS: Project[] = [
     id: 2,
     title: 'Car Rental Demo Website',
     description: 'Modern car rental website with elegant vehicle showcases, interactive search and booking filters, and a high-conversion responsive design for auto businesses.',
-    image: '/src/assets/images/car_rental_mockup_1786355833640.jpg',
+    image: carRentalImg,
     url: 'https://benkarrohan80-byte.github.io/carrental-demo-website/',
     tags: ['Modern UI', 'Responsive Web Design', 'Interactive Grid', 'Luxury Theme']
   },
@@ -23,7 +29,7 @@ export const PROJECTS: Project[] = [
     id: 3,
     title: 'Real Estate Demo Website',
     description: 'Premium real estate platform featuring modern villa property listings, sleek layouts, interactive contact cards, and high-impact visual design to attract buyers.',
-    image: '/src/assets/images/real_estate_mockup_1786355851656.jpg',
+    image: realEstateImg,
     url: 'https://benkarrohan80-byte.github.io/realstate-demo-website/',
     tags: ['Tailwind CSS', 'Vanilla JavaScript', 'Dynamic Filters', 'Modern Architecture']
   },
@@ -31,7 +37,7 @@ export const PROJECTS: Project[] = [
     id: 4,
     title: 'Coaching Institute Demo Website',
     description: 'Professional academic and coaching institute landing page focused on student admissions, interactive course visualizers, and responsive contact sections.',
-    image: '/src/assets/images/coaching_institute_mockup_1786355868741.jpg',
+    image: coachingImg,
     url: 'https://benkarrohan80-byte.github.io/apexacademy-demo/',
     tags: ['Responsive Web Design', 'Clean Layout', 'Admissions Form UI', 'Education']
   }
